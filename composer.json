@@ -1,0 +1,18 @@
+{
+    "name": "shigeru/test-messaging-app",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shigeru\\TestMessagingApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ninjacoder",
+            "email": "ninjacoder199413@gmail.com"
+        }
+    ],
+    "require": {}
+}
