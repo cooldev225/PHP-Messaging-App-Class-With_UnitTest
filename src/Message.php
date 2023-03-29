@@ -1,7 +1,6 @@
 <?php
-    require __DIR__ . './User.php';
-    require __DIR__ . './constants/MessageType.php';
-    require __DIR__ . './constants/UserType.php';
+    require_once __DIR__ . './User.php';
+    require_once __DIR__ . './constants/MessageType.php';
 
     class Message {
         private User $sender;
